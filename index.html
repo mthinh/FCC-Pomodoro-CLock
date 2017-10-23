@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div>
+  <div class="time-container">
+    <span id="time">00:00:00</span>
+    <span class="time-text" style="display:none">Session</span>
+    <div class='init-btn'>
+      <button id='start'>START</button>
+      <button id='reset'>RESET</button>   
+    </div>
+  </div>
+
+</div>
+<div class='container'>
+  <div id="session">
+    <div id='session-name'>Session</div>
+    <div id='session-btn'>
+      <button class="btn" id='session-sub'>-</button>
+      <div class="value" id='session-value'>25</div>
+      <button class="btn" id='session-add'>+</button>
+    </div>
+  </div> 
+
+  <div id='break'>
+    <div id='break-name'>Break</div>
+    <div id="break-btn">
+      <button class="btn" id='break-sub'>-</button>
+      <div class="value" id='break-value'>5</div>
+      <button class="btn" id='break-add'>+</button>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
